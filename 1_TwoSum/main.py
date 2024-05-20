@@ -9,6 +9,7 @@ class Solution:
             for index_02, num_02 in enumerate(nums[index_01 + 1 :], index_01 + 1)
             if num_01 + num_02 == target
         ]
+
         return result[0] if result else []
 
 
