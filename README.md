@@ -10,6 +10,8 @@ leetcode題目練習
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [13_RomantoInteger](13_RomantoInteger/main.py) |
 
 ###  (貳).LeetCode 75
+[LeetCode 75](https://leetcode.com/studyplan/leetcode-75/)
+
 #### Array / String
 
 | LeetCode的連結 | 練習的程式碼 |
@@ -17,3 +19,6 @@ leetcode題目練習
 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75) | [1768_MergeStringsAlternately](1768_MergeStringsAlternately/main.py) |
 | [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/description/?envType=study-plan-v2&envId=leetcode-75) | [1071_GreatestCommonDivisorofStrings](1071_GreatestCommonDivisorofStrings/main.py) |
 | [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/?envType=study-plan-v2&envId=leetcode-75) | [1431_KidsWiththeGreatestNumberofCandiess](1431_KidsWiththeGreatestNumberofCandies/main.py) |
+| [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/?envType=study-plan-v2&envId=leetcode-75) | [605_CanPlaceFlowers](605_CanPlaceFlowers/main.py) |
+| [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75) | [345_ReverseVowelsofaString](345_ReverseVowelsofaString/main.py) |
+| [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/?envType=study-plan-v2&envId=leetcode-75) | [151_ReverseWordsinaString](151_ReverseWordsinaString/main.py) |
