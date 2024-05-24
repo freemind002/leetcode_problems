@@ -22,3 +22,5 @@ leetcode題目練習
 | [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/?envType=study-plan-v2&envId=leetcode-75) | [605_CanPlaceFlowers](605_CanPlaceFlowers/main.py) |
 | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75) | [345_ReverseVowelsofaString](345_ReverseVowelsofaString/main.py) |
 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/?envType=study-plan-v2&envId=leetcode-75) | [151_ReverseWordsinaString](151_ReverseWordsinaString/main.py) |
+| [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=leetcode-75) | [238_ProductofArrayExceptSelf](238_ProductofArrayExceptSelf/main.py) |
+| [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/?envType=study-plan-v2&envId=leetcode-75) | [334_IncreasingTripletSubsequence](334_IncreasingTripletSubsequence/main.py) |
