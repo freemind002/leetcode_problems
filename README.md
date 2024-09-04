@@ -35,3 +35,8 @@ leetcode題目練習
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/?envType=study-plan-v2&envId=leetcode-75) | [392_IsSubsequence](392_IsSubsequence/main.py) |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/?envType=study-plan-v2&envId=leetcode-75) | [11_ContainerWithMostWater](11_ContainerWithMostWater/main.py) |
 | [1679. Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75) | [1679_MaxNumberofK-SumPairs](1679_MaxNumberofK-SumPairs/main.py) |
+
+#### Sliding Window
+| LeetCode的連結 | 練習的程式碼 |
+| ---- | ---- |
+| [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=study-plan-v2&envId=leetcode-75) | [643_MaximumAverageSubarrayI](643_MaximumAverageSubarrayI/main.py) |
