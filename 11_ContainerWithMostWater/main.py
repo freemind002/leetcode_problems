@@ -7,15 +7,13 @@ class Solution:
         left = 0
         right = len(height) - 1
 
-        while True:
-            if height[left] <= height[right]:
+        while left < right:
+            if height[left] < height[right]:
                 maxvol = max(height[left] * (right - left), maxvol)
                 left += 1
             else:
                 maxvol = max(height[right] * (right - left), maxvol)
                 right -= 1
-            if right == left:
-                break
 
         return maxvol
 

@@ -40,4 +40,5 @@ leetcode題目練習
 | LeetCode的連結 | 練習的程式碼 |
 | ---- | ---- |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=study-plan-v2&envId=leetcode-75) | [643_MaximumAverageSubarrayI](643_MaximumAverageSubarrayI/main.py) |
-| [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/?envType=study-plan-v2&envId=leetcode-75) | [643_MaximumAverageSubarrayI](1456_MaximumNumberofVowelsinaSubstringofGivenLength/main.py) |
+| [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/?envType=study-plan-v2&envId=leetcode-75) | [1456_MaximumNumberofVowelsinaSubstringofGivenLength](1456_MaximumNumberofVowelsinaSubstringofGivenLength/main.py) |
+| [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/?envType=study-plan-v2&envId=leetcode-75) | [1004_MaxConsecutiveOnesIII](1004_MaxConsecutiveOnesIII/main.py) |
