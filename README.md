@@ -52,7 +52,7 @@ leetcode題目練習
                 Kids With the Greatest Number of Candies</a>
         </td>
         <td>
-            <a href="1431_KidsWiththeGreatestNumberofCandies/main.py">1431_KidsWiththeGreatestNumberofCandiess</a>
+            <a href="1431_KidsWiththeGreatestNumberofCandies/main.py">1431_KidsWiththeGreatestNumberofCandies</a>
         </td>
     </tr>
     <tr>
