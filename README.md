@@ -1,15 +1,19 @@
 # leetcode_problems
+
 leetcode題目練習
 
-## 壹.題目練習
-### (壹).練習的題目
+## 壹. 題目練習
+
+### (壹). 練習的題目
+
 | LeetCode的連結 | 練習的程式碼 |
 | ---- | ---- |
 | [1. Two Sum](https://leetcode.com/problems/two-sum/description/) | [1_TwoSum](1_TwoSum/main.py) |
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [9_PalindromeNumber](9_PalindromeNumber/main.py) |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [13_RomantoInteger](13_RomantoInteger/main.py) |
 
-###  (貳).LeetCode 75
+###  (貳). LeetCode 75
+
 <table border="1">
     <tr>
         <th colspan="3" align="center" valign="center">
@@ -94,39 +98,126 @@ leetcode題目練習
     <tr>
         <td>
             <a
-                href="https://leetcode.com/problems/string-compression/description/?envType=study-plan-v2&envId=leetcode-75">443.
+                href="https://leetcode.com/problems/string-compression/description/?envType=study-plan-v2&envId=leetcode-75">443
                 String Compression</a>
         </td>
         <td><a href="443_StringCompression/main.py">443_StringCompression</a></td>
     </tr>
+    <tr>
+        <td rowspan="5">Two Pointers</td>
+        <td align="center" valign="center">LeetCode的連結</td>
+        <td align="center" valign="center">練習的程式碼</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://leetcode.com/problems/move-zeroes/description/?envType=study-plan-v2&envId=leetcode-75">283.
+                Move Zeroes</a>
+        </td>
+        <td><a href="283_MoveZeroes/main.py">283_MoveZeroes</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://leetcode.com/problems/is-subsequence/?envType=study-plan-v2&envId=leetcode-75">392. Is
+                Subsequence</a>
+        </td>
+        <td><a href="392_IsSubsequence/main.py">392_IsSubsequence</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://leetcode.com/problems/container-with-most-water/?envType=study-plan-v2&envId=leetcode-75">11.
+                Container With Most Water</a>
+        </td>
+        <td><a href="11_ContainerWithMostWater/main.py">11_ContainerWithMostWater</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75">1679.
+                Max Number of K-Sum Pairs</a>
+        </td>
+        <td><a href="1679_MaxNumberofK-SumPairs/main.py">1679_MaxNumberofK-SumPairs</a></td>
+    </tr>
+    <tr>
+        <td rowspan="5">Sliding Window</td>
+        <td align="center" valign="center">LeetCode的連結</td>
+        <td align="center" valign="center">練習的程式碼</td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=study-plan-v2&envId=leetcode-75">643.
+                Maximum Average Subarray I</a>
+        </td>
+        <td><a href="643_MaximumAverageSubarrayI/main.py">643_MaximumAverageSubarrayI</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/?envType=study-plan-v2&envId=leetcode-75">1456.
+                Maximum Number of Vowels in a Substring of Given Length</a>
+        </td>
+        <td><a
+                href="1456_MaximumNumberofVowelsinaSubstringofGivenLength/main.py">1456_MaximumNumberofVowelsinaSubstringofGivenLength</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/max-consecutive-ones-iii/description/?envType=study-plan-v2&envId=leetcode-75">1004.
+                Max Consecutive Ones III</a>
+        </td>
+        <td><a href="1004_MaxConsecutiveOnesIII/main.py">1004_MaxConsecutiveOnesIII</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=study-plan-v2&envId=leetcode-75">1493.
+                Longest Subarray of 1's After Deleting One Element</a>
+        </td>
+        <td><a
+                href="1493_LongestSubarrayof1'sAfterDeletingOneElement/main.py">1493_LongestSubarrayof1'sAfterDeletingOneElement</a>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="3">Prefix Sum</td>
+        <td align="center" valign="center">LeetCode的連結</td>
+        <td align="center" valign="center">練習的程式碼</td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75">1732.
+                Find the Highest Altitude</a>
+        </td>
+        <td><a href="1732_FindtheHighestAltitude/main.py">1732_FindtheHighestAltitude</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan-v2&envId=leetcode-75">724.
+                Find Pivot Index</a>
+        </td>
+        <td><a href="724_FindPivotIndex/main.py">1724_FindPivotIndex</a></td>
+    </tr>
+    <tr>
+        <td rowspan="3">Hash Map / Set</td>
+        <td align="center" valign="center">LeetCode的連結</td>
+        <td align="center" valign="center">練習的程式碼</td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/find-the-difference-of-two-arrays/description/?envType=study-plan-v2&envId=leetcode-75">2215.
+                Find the Difference of Two Arrays</a>
+        </td>
+        <td><a href="2215_FindtheDifferenceofTwoArrays/main.py">2215_FindtheDifferenceofTwoArrays</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75">1207.
+                Unique Number of Occurrences</a>
+        </td>
+        <td><a href="1207_UniqueNumberofOccurrences/main.py">1207_UniqueNumberofOccurrences</a></td>
+    </tr>
 </table>
-
-
-#### Two Pointers
-
-| LeetCode的連結 | 練習的程式碼 |
-| ---- | ---- |
-| [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/?envType=study-plan-v2&envId=leetcode-75) | [283_MoveZeroes](283_MoveZeroes/main.py) |
-| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/?envType=study-plan-v2&envId=leetcode-75) | [392_IsSubsequence](392_IsSubsequence/main.py) |
-| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/?envType=study-plan-v2&envId=leetcode-75) | [11_ContainerWithMostWater](11_ContainerWithMostWater/main.py) |
-| [1679. Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75) | [1679_MaxNumberofK-SumPairs](1679_MaxNumberofK-SumPairs/main.py) |
-
-#### Sliding Window
-| LeetCode的連結 | 練習的程式碼 |
-| ---- | ---- |
-| [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=study-plan-v2&envId=leetcode-75) | [643_MaximumAverageSubarrayI](643_MaximumAverageSubarrayI/main.py) |
-| [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/?envType=study-plan-v2&envId=leetcode-75) | [1456_MaximumNumberofVowelsinaSubstringofGivenLength](1456_MaximumNumberofVowelsinaSubstringofGivenLength/main.py) |
-| [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/?envType=study-plan-v2&envId=leetcode-75) | [1004_MaxConsecutiveOnesIII](1004_MaxConsecutiveOnesIII/main.py) |
-| [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=study-plan-v2&envId=leetcode-75) | [1493_LongestSubarrayof1'sAfterDeletingOneElement](1493_LongestSubarrayof1'sAfterDeletingOneElement/main.py) |
-
-#### Prefix Sum
-| LeetCode的連結 | 練習的程式碼 |
-| ---- | ---- |
-| [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75) | [1732_FindtheHighestAltitude](1732_FindtheHighestAltitude/main.py) |
-| [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan-v2&envId=leetcode-75) | [724_FindPivotIndex](724_FindPivotIndex/main.py) |
-
-#### Hash Map / Set
-| LeetCode的連結 | 練習的程式碼 |
-| ---- | ---- |
-| [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/?envType=study-plan-v2&envId=leetcode-75) | [2215_FindtheDifferenceofTwoArrays](2215_FindtheDifferenceofTwoArrays/main.py) |
-| [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75) | [1207_UniqueNumberofOccurrences](1207_UniqueNumberofOccurrences/main.py) |
