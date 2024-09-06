@@ -49,3 +49,9 @@ leetcode題目練習
 | ---- | ---- |
 | [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75) | [1732_FindtheHighestAltitude](1732_FindtheHighestAltitude/main.py) |
 | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan-v2&envId=leetcode-75) | [724_FindPivotIndex](724_FindPivotIndex/main.py) |
+
+#### Hash Map / Set
+| LeetCode的連結 | 練習的程式碼 |
+| ---- | ---- |
+| [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/?envType=study-plan-v2&envId=leetcode-75) | [2215_FindtheDifferenceofTwoArrays](2215_FindtheDifferenceofTwoArrays/main.py) |
+| [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75) | [1207_UniqueNumberofOccurrences](1207_UniqueNumberofOccurrences/main.py) |
