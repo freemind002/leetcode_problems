@@ -1,11 +1,12 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         i = 0
-        for j in range(len(t)):
-            if i < len(s) and s[i] == t[j]:
+        s_len = len(s)
+        for t_value in t:
+            if i < s_len and s[i] == t_value:
                 i += 1
 
-        return i == len(s)
+        return i == s_len
 
 
 result = Solution().isSubsequence("acb", "ahbgdc")

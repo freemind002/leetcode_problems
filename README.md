@@ -42,3 +42,10 @@ leetcode題目練習
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=study-plan-v2&envId=leetcode-75) | [643_MaximumAverageSubarrayI](643_MaximumAverageSubarrayI/main.py) |
 | [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/?envType=study-plan-v2&envId=leetcode-75) | [1456_MaximumNumberofVowelsinaSubstringofGivenLength](1456_MaximumNumberofVowelsinaSubstringofGivenLength/main.py) |
 | [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/description/?envType=study-plan-v2&envId=leetcode-75) | [1004_MaxConsecutiveOnesIII](1004_MaxConsecutiveOnesIII/main.py) |
+| [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=study-plan-v2&envId=leetcode-75) | [1493_LongestSubarrayof1'sAfterDeletingOneElement](1493_LongestSubarrayof1'sAfterDeletingOneElement/main.py) |
+
+#### Prefix Sum
+| LeetCode的連結 | 練習的程式碼 |
+| ---- | ---- |
+| [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75) | [1732_FindtheHighestAltitude](1732_FindtheHighestAltitude/main.py) |
+| [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan-v2&envId=leetcode-75) | [724_FindPivotIndex](724_FindPivotIndex/main.py) |
