@@ -264,4 +264,27 @@
             <a href="2352_EqualRowandColumnPairs/main.py">2352_EqualRowandColumnPairs</a>
         </td>
     </tr>
+    <tr>
+        <td rowspan="4">Stack</td>
+        <td align="center" valign="center">LeetCode的連結</td>
+        <td align="center" valign="center">練習的程式碼</td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75">2390. Removing Stars From a String</a>
+        </td>
+        <td>
+            <a href="2390_RemovingStarsFromaString/main.py">2390_RemovingStarsFromaString</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a
+                href="https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75">735. Asteroid Collision</a>
+        </td>
+        <td>
+            <a href="735_AsteroidCollision/main.py">735_AsteroidCollision</a>
+        </td>
+    </tr>
 </table>
