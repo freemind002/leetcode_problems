@@ -1,6 +1,6 @@
 # leetcode_problems
 
-整理有練習過的LeetCode Problems
+整理有練習過的 LeetCode Problems
 
 ## 壹. 題目練習
 
@@ -272,7 +272,8 @@
     <tr>
         <td>
             <a
-                href="https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75">2390. Removing Stars From a String</a>
+                href="https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75">2390.
+                Removing Stars From a String</a>
         </td>
         <td>
             <a href="2390_RemovingStarsFromaString/main.py">2390_RemovingStarsFromaString</a>
@@ -281,10 +282,20 @@
     <tr>
         <td>
             <a
-                href="https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75">735. Asteroid Collision</a>
+                href="https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75">735.
+                Asteroid Collision</a>
         </td>
         <td>
             <a href="735_AsteroidCollision/main.py">735_AsteroidCollision</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://leetcode.com/problems/decode-string/description/?envType=study-plan-v2&envId=leetcode-75">394.
+                Decode String</a>
+        </td>
+        <td>
+            <a href="394_DecodeString/main.py">394_DecodeString</a>
         </td>
     </tr>
 </table>
