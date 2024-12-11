@@ -33,7 +33,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/1768. Merge Strings Alternately/main.py"
+      <a href="Study Plan/LeetCode 75/1768. Merge Strings Alternately/main.py"
         >1768. Merge Strings Alternately</a
       >
     </td>
@@ -46,7 +46,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/1071. Greatest Common Divisor of Strings/main.py"
+      <a href="Study Plan/LeetCode 75/1071. Greatest Common Divisor of Strings/main.py"
         >1071. Greatest Common Divisor of Strings</a
       >
     </td>
@@ -60,7 +60,7 @@
     </td>
     <td>
       <a
-        href="leetcode_75/1431. Kids With the Greatest Number of Candies/main.py"
+        href="Study Plan/LeetCode 75/1431. Kids With the Greatest Number of Candies/main.py"
         >1431. Kids With the Greatest Number of Candies</a
       >
     </td>
@@ -72,7 +72,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/605. Can Place Flowers/main.py"
+      <a href="Study Plan/LeetCode 75/605. Can Place Flowers/main.py"
         >605. Can Place Flowers</a
       >
     </td>
@@ -85,7 +85,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/345. Reverse Vowels of a String/main.py"
+      <a href="Study Plan/LeetCode 75/345. Reverse Vowels of a String/main.py"
         >345. Reverse Vowels of a String</a
       >
     </td>
@@ -98,7 +98,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/151. Reverse Words in a String/main.py"
+      <a href="Study Plan/LeetCode 75/151. Reverse Words in a String/main.py"
         >151. Reverse Words in a String</a
       >
     </td>
@@ -110,7 +110,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/238. Product of Array Except Self/main.py"
+      <a href="Study Plan/LeetCode 75/238. Product of Array Except Self/main.py"
         >238. Product of Array Except Self</a
       >
     </td>
@@ -123,7 +123,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/334. Increasing Triplet Subsequence/main.py"
+      <a href="Study Plan/LeetCode 75/334. Increasing Triplet Subsequence/main.py"
         >334. Increasing Triplet Subsequence</a
       >
     </td>
@@ -135,7 +135,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/443 String Compression/main.py"
+      <a href="Study Plan/LeetCode 75/443 String Compression/main.py"
         >443 String Compression</a
       >
     </td>
@@ -151,7 +151,7 @@
         >283. Move Zeroes</a
       >
     </td>
-    <td><a href="leetcode_75/283. Move Zeroes/main.py">283. Move Zeroes</a></td>
+    <td><a href="Study Plan/LeetCode 75/283. Move Zeroes/main.py">283. Move Zeroes</a></td>
   </tr>
   <tr>
     <td>
@@ -160,7 +160,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/392. Is Subsequence/main.py">392. Is Subsequence</a>
+      <a href="Study Plan/LeetCode 75/392. Is Subsequence/main.py">392. Is Subsequence</a>
     </td>
   </tr>
   <tr>
@@ -170,7 +170,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/11. Container With Most Water/main.py"
+      <a href="Study Plan/LeetCode 75/11. Container With Most Water/main.py"
         >11. Container With Most Water</a
       >
     </td>
@@ -183,7 +183,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/1679. Max Number of K-Sum Pairs/main.py"
+      <a href="Study Plan/LeetCode 75/1679. Max Number of K-Sum Pairs/main.py"
         >1679. Max Number of K-Sum Pairs</a
       >
     </td>
@@ -201,7 +201,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/643. Maximum Average Subarray I/main.py"
+      <a href="Study Plan/LeetCode 75/643. Maximum Average Subarray I/main.py"
         >643. Maximum Average Subarray I</a
       >
     </td>
@@ -215,7 +215,7 @@
     </td>
     <td>
       <a
-        href="leetcode_75/1456. Maximum Number of Vowels in a Substring of Given Length/main.py"
+        href="Study Plan/LeetCode 75/1456. Maximum Number of Vowels in a Substring of Given Length/main.py"
         >1456. Maximum Number of Vowels in a Substring of Given Length</a
       >
     </td>
@@ -228,7 +228,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/1004. Max Consecutive Ones III/main.py"
+      <a href="Study Plan/LeetCode 75/1004. Max Consecutive Ones III/main.py"
         >1004. Max Consecutive Ones III</a
       >
     </td>
@@ -242,7 +242,7 @@
     </td>
     <td>
       <a
-        href="leetcode_75/1493. Longest Subarray of 1's After Deleting One Element/main.py"
+        href="Study Plan/LeetCode 75/1493. Longest Subarray of 1's After Deleting One Element/main.py"
         >1493. Longest Subarray of 1's After Deleting One Element</a
       >
     </td>
@@ -260,7 +260,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/1732. Find the Highest Altitude/main.py"
+      <a href="Study Plan/LeetCode 75/1732. Find the Highest Altitude/main.py"
         >1732. Find the Highest Altitude</a
       >
     </td>
@@ -272,7 +272,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/724. Find Pivot Index/main.py"
+      <a href="Study Plan/LeetCode 75/724. Find Pivot Index/main.py"
         >724. Find Pivot Index</a
       >
     </td>
@@ -290,7 +290,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/2215. Find the Difference of Two Arrays/main.py"
+      <a href="Study Plan/LeetCode 75/2215. Find the Difference of Two Arrays/main.py"
         >2215. Find the Difference of Two Arrays</a
       >
     </td>
@@ -303,7 +303,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/1207. Unique Number of Occurrences/main.py"
+      <a href="Study Plan/LeetCode 75/1207. Unique Number of Occurrences/main.py"
         >1207. Unique Number of Occurrences</a
       >
     </td>
@@ -316,7 +316,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/1657. Determine if Two Strings Are Close/main.py"
+      <a href="Study Plan/LeetCode 75/1657. Determine if Two Strings Are Close/main.py"
         >1657. Determine if Two Strings Are Close</a
       >
     </td>
@@ -329,7 +329,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/2352. Equal Row and Column Pairs/main.py"
+      <a href="Study Plan/LeetCode 75/2352. Equal Row and Column Pairs/main.py"
         >2352. Equal Row and Column Pairs</a
       >
     </td>
@@ -347,7 +347,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/2390. Removing Stars From a String/main.py"
+      <a href="Study Plan/LeetCode 75/2390. Removing Stars From a String/main.py"
         >2390. Removing Stars From a String</a
       >
     </td>
@@ -359,7 +359,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/735. Asteroid Collision/main.py"
+      <a href="Study Plan/LeetCode 75/735. Asteroid Collision/main.py"
         >735. Asteroid Collision</a
       >
     </td>
@@ -371,7 +371,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/394. Decode String/main.py">394. Decode String</a>
+      <a href="Study Plan/LeetCode 75/394. Decode String/main.py">394. Decode String</a>
     </td>
   </tr>
   <tr>
@@ -387,7 +387,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/933. Number of Recent Calls/main.py"
+      <a href="Study Plan/LeetCode 75/933. Number of Recent Calls/main.py"
         >933. Number of Recent Calls</a
       >
     </td>
@@ -399,7 +399,7 @@
       >
     </td>
     <td>
-      <a href="leetcode_75/649. Dota2 Senate/main.py">649. Dota2 Senate</a>
+      <a href="Study Plan/LeetCode 75/649. Dota2 Senate/main.py">649. Dota2 Senate</a>
     </td>
   </tr>
 </table>
@@ -430,7 +430,7 @@
     </td>
     <td>
       <a
-        href="introduction_to_pandas\2877. Create a DataFrame from List\main.py"
+        href="Study Plan\Introduction to Pandas\2877. Create a DataFrame from List\main.py"
         >2877. Create a DataFrame from List</a
       >
     </td>
@@ -448,7 +448,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2878. Get the Size of a DataFrame\main.py"
+      <a href="Study Plan\Introduction to Pandas\2878. Get the Size of a DataFrame\main.py"
         >2878. Get the Size of a DataFrame</a
       >
     </td>
@@ -462,7 +462,7 @@
     </td>
     <td>
       <a
-        href="introduction_to_pandas\2879. Display the First Three Rows\main.py"
+        href="Study Plan\Introduction to Pandas\2879. Display the First Three Rows\main.py"
         >2879. Display the First Three Rows</a
       >
     </td>
@@ -479,7 +479,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2880. Select Data\main.py"
+      <a href="Study Plan\Introduction to Pandas\2880. Select Data\main.py"
         >2880. Select Data</a
       >
     </td>
@@ -491,7 +491,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2881. Create a New Column\main.py"
+      <a href="Study Plan\Introduction to Pandas\2881. Create a New Column\main.py"
         >2881. Create a New Column</a
       >
     </td>
@@ -508,7 +508,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2882. Drop Duplicate Rows\main.py"
+      <a href="Study Plan\Introduction to Pandas\2882. Drop Duplicate Rows\main.py"
         >2882. Drop Duplicate Rows</a
       >
     </td>
@@ -520,7 +520,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2883. Drop Missing Data\main.py"
+      <a href="Study Plan\Introduction to Pandas\2883. Drop Missing Data\main.py"
         >2883. Drop Missing Data</a
       >
     </td>
@@ -532,7 +532,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2884. Modify Columns\main.py"
+      <a href="Study Plan\Introduction to Pandas\2884. Modify Columns\main.py"
         >2884. Modify Columns</a
       >
     </td>
@@ -544,7 +544,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2885. Rename Columns\main.py"
+      <a href="Study Plan\Introduction to Pandas\2885. Rename Columns\main.py"
         >2885. Rename Columns</a
       >
     </td>
@@ -556,7 +556,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2886. Change Data Type\main.py"
+      <a href="Study Plan\Introduction to Pandas\2886. Change Data Type\main.py"
         >2886. Change Data Type</a
       >
     </td>
@@ -568,7 +568,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2887. Fill Missing Data\main.py"
+      <a href="Study Plan\Introduction to Pandas\2887. Fill Missing Data\main.py"
         >2887. Fill Missing Data</a
       >
     </td>
@@ -586,7 +586,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2888. Reshape Data Concatenate\main.py"
+      <a href="Study Plan\Introduction to Pandas\2888. Reshape Data Concatenate\main.py"
         >2888. Reshape Data: Concatenate</a
       >
     </td>
@@ -598,7 +598,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2890. Reshape Data Melt\main.py"
+      <a href="Study Plan\Introduction to Pandas\2890. Reshape Data Melt\main.py"
         >2889. Reshape Data: Pivot</a
       >
     </td>
@@ -610,7 +610,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2890. Reshape Data Melt\main.py"
+      <a href="Study Plan\Introduction to Pandas\2890. Reshape Data Melt\main.py"
         >2890. Reshape Data: Melt</a
       >
     </td>
@@ -627,7 +627,7 @@
       >
     </td>
     <td>
-      <a href="introduction_to_pandas\2891. Method Chaining\main.py"
+      <a href="Study Plan\Introduction to Pandas\2891. Method Chaining\main.py"
         >2891. Method Chaining</a
       >
     </td>
