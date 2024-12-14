@@ -46,7 +46,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/1071. Greatest Common Divisor of Strings/main.py"
+      <a
+        href="Study Plan/LeetCode 75/1071. Greatest Common Divisor of Strings/main.py"
         >1071. Greatest Common Divisor of Strings</a
       >
     </td>
@@ -123,7 +124,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/334. Increasing Triplet Subsequence/main.py"
+      <a
+        href="Study Plan/LeetCode 75/334. Increasing Triplet Subsequence/main.py"
         >334. Increasing Triplet Subsequence</a
       >
     </td>
@@ -151,7 +153,11 @@
         >283. Move Zeroes</a
       >
     </td>
-    <td><a href="Study Plan/LeetCode 75/283. Move Zeroes/main.py">283. Move Zeroes</a></td>
+    <td>
+      <a href="Study Plan/LeetCode 75/283. Move Zeroes/main.py"
+        >283. Move Zeroes</a
+      >
+    </td>
   </tr>
   <tr>
     <td>
@@ -160,7 +166,9 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/392. Is Subsequence/main.py">392. Is Subsequence</a>
+      <a href="Study Plan/LeetCode 75/392. Is Subsequence/main.py"
+        >392. Is Subsequence</a
+      >
     </td>
   </tr>
   <tr>
@@ -290,7 +298,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/2215. Find the Difference of Two Arrays/main.py"
+      <a
+        href="Study Plan/LeetCode 75/2215. Find the Difference of Two Arrays/main.py"
         >2215. Find the Difference of Two Arrays</a
       >
     </td>
@@ -303,7 +312,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/1207. Unique Number of Occurrences/main.py"
+      <a
+        href="Study Plan/LeetCode 75/1207. Unique Number of Occurrences/main.py"
         >1207. Unique Number of Occurrences</a
       >
     </td>
@@ -316,7 +326,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/1657. Determine if Two Strings Are Close/main.py"
+      <a
+        href="Study Plan/LeetCode 75/1657. Determine if Two Strings Are Close/main.py"
         >1657. Determine if Two Strings Are Close</a
       >
     </td>
@@ -347,7 +358,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/2390. Removing Stars From a String/main.py"
+      <a
+        href="Study Plan/LeetCode 75/2390. Removing Stars From a String/main.py"
         >2390. Removing Stars From a String</a
       >
     </td>
@@ -371,7 +383,9 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/394. Decode String/main.py">394. Decode String</a>
+      <a href="Study Plan/LeetCode 75/394. Decode String/main.py"
+        >394. Decode String</a
+      >
     </td>
   </tr>
   <tr>
@@ -399,12 +413,12 @@
       >
     </td>
     <td>
-      <a href="Study Plan/LeetCode 75/649. Dota2 Senate/main.py">649. Dota2 Senate</a>
+      <a href="Study Plan/LeetCode 75/649. Dota2 Senate/main.py"
+        >649. Dota2 Senate</a
+      >
     </td>
   </tr>
 </table>
-
-
 
 ### (參). Introduction to Pandas
 使用polars練習pandas的題目
@@ -448,7 +462,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan\Introduction to Pandas\2878. Get the Size of a DataFrame\main.py"
+      <a
+        href="Study Plan\Introduction to Pandas\2878. Get the Size of a DataFrame\main.py"
         >2878. Get the Size of a DataFrame</a
       >
     </td>
@@ -491,7 +506,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan\Introduction to Pandas\2881. Create a New Column\main.py"
+      <a
+        href="Study Plan\Introduction to Pandas\2881. Create a New Column\main.py"
         >2881. Create a New Column</a
       >
     </td>
@@ -508,7 +524,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan\Introduction to Pandas\2882. Drop Duplicate Rows\main.py"
+      <a
+        href="Study Plan\Introduction to Pandas\2882. Drop Duplicate Rows\main.py"
         >2882. Drop Duplicate Rows</a
       >
     </td>
@@ -520,7 +537,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan\Introduction to Pandas\2883. Drop Missing Data\main.py"
+      <a
+        href="Study Plan\Introduction to Pandas\2883. Drop Missing Data\main.py"
         >2883. Drop Missing Data</a
       >
     </td>
@@ -568,7 +586,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan\Introduction to Pandas\2887. Fill Missing Data\main.py"
+      <a
+        href="Study Plan\Introduction to Pandas\2887. Fill Missing Data\main.py"
         >2887. Fill Missing Data</a
       >
     </td>
@@ -586,7 +605,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan\Introduction to Pandas\2888. Reshape Data Concatenate\main.py"
+      <a
+        href="Study Plan\Introduction to Pandas\2888. Reshape Data Concatenate\main.py"
         >2888. Reshape Data: Concatenate</a
       >
     </td>
@@ -598,7 +618,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan\Introduction to Pandas\2890. Reshape Data Melt\main.py"
+      <a
+        href="Study Plan\Introduction to Pandas\2890. Reshape Data Melt\main.py"
         >2889. Reshape Data: Pivot</a
       >
     </td>
@@ -610,7 +631,8 @@
       >
     </td>
     <td>
-      <a href="Study Plan\Introduction to Pandas\2890. Reshape Data Melt\main.py"
+      <a
+        href="Study Plan\Introduction to Pandas\2890. Reshape Data Melt\main.py"
         >2890. Reshape Data: Melt</a
       >
     </td>
@@ -629,6 +651,111 @@
     <td>
       <a href="Study Plan\Introduction to Pandas\2891. Method Chaining\main.py"
         >2891. Method Chaining</a
+      >
+    </td>
+  </tr>
+</table>
+
+### (肆). SQL 50
+pandas的部份，改使用polars練習
+
+<table border="1">
+  <tr>
+    <th colspan="3" align="center" valign="center">
+      <a href="https://leetcode.com/studyplan/top-sql-50/">SQL 50</a>
+    </th>
+  </tr>
+  <tr>
+    <td rowspan="6">Select</td>
+    <td align="center" valign="center">LeetCode的連結</td>
+    <td align="center" valign="center">練習的程式碼</td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/recyclable-and-low-fat-products/description/"
+        >1757. Recyclable and Low Fat Products</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1757. Recyclable and Low Fat Products\"
+        >1757. Recyclable and Low Fat Products</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/find-customer-referee/description/"
+        >584. Find Customer Referee</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\584. Find Customer Referee\"
+        >584. Find Customer Referee</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/big-countries/description/"
+        >595. Big Countries</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\595. Big Countries\">595. Big Countries</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/article-views-i/description/"
+        >1148. Article Views I</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1148. Article Views I\"
+        >1148. Article Views I</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/invalid-tweets/description/"
+        >1683. Invalid Tweets</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1683. Invalid Tweets\">1683. Invalid Tweets</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="10">Basic Joins</td>
+    <td align="center" valign="center">LeetCode的連結</td>
+    <td align="center" valign="center">練習的程式碼</td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/"
+        >1378. Replace Employee ID With The Unique Identifier</a
+      >
+    </td>
+    <td>
+      <a
+        href="Study Plan\SQL 50\1378. Replace Employee ID With The Unique Identifier\"
+        >1378. Replace Employee ID With The Unique Identifier</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/product-sales-analysis-i/description/"
+        >1068. Product Sales Analysis I</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1068. Product Sales Analysis I\"
+        >1068. Product Sales Analysis I</a
       >
     </td>
   </tr>
