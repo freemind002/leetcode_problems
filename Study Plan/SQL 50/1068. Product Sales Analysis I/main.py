@@ -20,7 +20,7 @@ product = pl.LazyFrame(data, schema=["product_id", "product_name"]).cast(
 
 def sales_analysis(sales: pl.LazyFrame, product: pl.LazyFrame) -> pl.DataFrame:
     result_df = (
-        sales.join(product, on="product_id")
+        sales.join(product, on="product_id", how="left")
         .select(["product_name", "year", "price"])
         .collect()
     )

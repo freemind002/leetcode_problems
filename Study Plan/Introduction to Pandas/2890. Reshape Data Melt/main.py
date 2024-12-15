@@ -11,7 +11,6 @@ report_lf = pl.LazyFrame(
 
 
 def meltTable(report: pl.LazyFrame) -> pl.DataFrame:
-    # return pd.melt(report, id_vars=['product'],var_name='quarter', value_name='sales')
     result = report.unpivot(
         on=cs.numeric(), index="product", value_name="sales"
     ).collect()

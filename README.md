@@ -759,4 +759,30 @@ pandas的部份，改使用polars練習
       >
     </td>
   </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/"
+        >1581. Customer Who Visited but Did Not Make Any Transactions</a
+      >
+    </td>
+    <td>
+      <a
+        href="Study Plan\SQL 50\1581. Customer Who Visited but Did Not Make Any Transactions\"
+        >1581. Customer Who Visited but Did Not Make Any Transactions</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/rising-temperature/description/"
+        >197. Rising Temperature</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\197. Rising Temperature\"
+        >197. Rising Temperature</a
+      >
+    </td>
+  </tr>
 </table>
