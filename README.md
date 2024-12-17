@@ -823,6 +823,18 @@ pandas的部份，改使用polars練習
   </tr>
   <tr>
     <td>
+      <a href="https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/"
+        >570. Managers with at Least 5 Direct Reports</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\570. Managers with at Least 5 Direct Reports\"
+        >570. Managers with at Least 5 Direct Reports</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://leetcode.com/problems/confirmation-rate/description/"
         >1934. Confirmation Rate</a
       >
