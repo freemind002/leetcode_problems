@@ -785,4 +785,52 @@ pandas的部份，改使用polars練習
       >
     </td>
   </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/average-time-of-process-per-machine/description/"
+        >1661. Average Time of Process per Machine</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1661. Average Time of Process per Machine\"
+        >1661. Average Time of Process per Machine</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/employee-bonus/description/"
+        >577. Employee Bonus</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\577. Employee Bonus\">577. Employee Bonus</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/students-and-examinations/description/"
+        >1280. Students and Examinations</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1280. Students and Examinations\"
+        >1280. Students and Examinations</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/confirmation-rate/description/"
+        >1934. Confirmation Rate</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1934. Confirmation Rate\"
+        >1934. Confirmation Rate</a
+      >
+    </td>
+  </tr>
 </table>
