@@ -845,4 +845,33 @@ pandas的部份，改使用polars練習
       >
     </td>
   </tr>
+  <tr>
+    <td rowspan="9">Basic Aggregate Functions</td>
+    <td align="center" valign="center">LeetCode的連結</td>
+    <td align="center" valign="center">練習的程式碼</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/problems/not-boring-movies/description/"
+        >620. Not Boring Movies</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\620. Not Boring Movies\"
+        >620. Not Boring Movies</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/problems/average-selling-price/description/"
+        >1251. Average Selling Price</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1251. Average Selling Price\"
+        >1251. Average Selling Price</a
+      >
+    </td>
+  </tr>
 </table>
