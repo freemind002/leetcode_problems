@@ -32,7 +32,9 @@ def students_and_examinations(
     result_df = (
         students.join(subjects, how="cross")
         .join(
-            examinations.group_by(["student_id", "subject_name"]).len("attended_exams"),
+            examinations.group_by(["student_id", "subject_name"]).agg(
+                attended_exams=pl.col("subject_name").count()
+            ),
             how="left",
             on=["student_id", "subject_name"],
         )

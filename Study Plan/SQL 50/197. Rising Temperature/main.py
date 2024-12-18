@@ -6,13 +6,23 @@ data = [
     [3, "2015-01-03", 20],
     [4, "2015-01-04", 30],
 ]
-weather = pl.LazyFrame(data, schema=["id", "recordDate", "temperature"]).cast(
-    {"id": pl.Int64, "recordDate": pl.Datetime, "temperature": pl.Int64}
+weather = (
+    pl.LazyFrame(data, schema=["id", "recordDate", "temperature"], orient="row")
+    .cast({"id": pl.Int64, "recordDate": pl.String, "temperature": pl.Int64})
+    .with_columns(pl.col("recordDate").str.to_date())
 )
 
 
 def rising_temperature(weather: pl.LazyFrame) -> pl.DataFrame:
-    result_df = weather.filter(pl.col("temperature").diff() > 0).select("id").collect()
+    result_df = (
+        weather.sort("recordDate")
+        .filter(
+            pl.col("temperature").diff() > 0,
+            pl.col("recordDate").diff().dt.total_days() == 1,
+        )
+        .select("id")
+        .collect()
+    )
 
     return result_df
 

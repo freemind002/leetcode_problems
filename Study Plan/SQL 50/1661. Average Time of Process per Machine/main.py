@@ -15,7 +15,9 @@ data = [
     [2, 1, "end", 5],
 ]
 activity = pl.LazyFrame(
-    data, schema=["machine_id", "process_id", "activity_type", "timestamp"]
+    data,
+    schema=["machine_id", "process_id", "activity_type", "timestamp"],
+    orient="row",
 ).cast(
     {
         "machine_id": pl.Int64,
@@ -34,10 +36,10 @@ def get_average_time(activity: pl.LazyFrame) -> pl.DataFrame:
         )
         .select(
             pl.col("machine_id"),
-            (pl.col("end") - pl.col("start")).round(3).alias("processing_time"),
+            (pl.col("end") - pl.col("start")).alias("processing_time"),
         )
         .group_by("machine_id")
-        .mean()
+        .agg(processing_time=pl.col("processing_time").mean().round(3))
     )
 
     return result_df

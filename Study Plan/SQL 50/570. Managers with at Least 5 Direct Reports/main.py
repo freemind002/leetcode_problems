@@ -18,11 +18,11 @@ employee = pl.LazyFrame(
 def find_managers(employee: pl.LazyFrame) -> pl.DataFrame:
     result_df = (
         employee.join(
-            employee.group_by("managerId").agg(id_list=pl.col("id")),
+            employee.group_by("managerId").agg(id_count=pl.col("id").len()),
             left_on="id",
             right_on="managerId",
         )
-        .filter(pl.col("id_list").list.len() >= 5)
+        .filter(pl.col("id_count") >= 5)
         .select("name")
         .collect()
     )

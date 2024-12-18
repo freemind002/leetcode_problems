@@ -15,7 +15,7 @@ def find_customers(visits: pl.LazyFrame, transactions: pl.LazyFrame) -> pl.DataF
         visits.join(transactions, on="visit_id", how="left")
         .filter(pl.col("transaction_id").is_null())
         .group_by("customer_id")
-        .len("count_no_trans")
+        .agg(count_no_trans=pl.col("visit_id").count())
         .collect()
     )
 
