@@ -823,7 +823,8 @@ pandas的部份，改使用polars練習
   </tr>
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/"
+      <a
+        href="https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/"
         >570. Managers with at Least 5 Direct Reports</a
       >
     </td>
@@ -852,7 +853,8 @@ pandas的部份，改使用polars練習
   </tr>
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/problems/not-boring-movies/description/"
+      <a
+        href="https://leetcode.com/problems/problems/not-boring-movies/description/"
         >620. Not Boring Movies</a
       >
     </td>
@@ -864,13 +866,109 @@ pandas的部份，改使用polars練習
   </tr>
   <tr>
     <td>
-      <a href="https://leetcode.com/problems/problems/average-selling-price/description/"
+      <a
+        href="https://leetcode.com/problems/problems/average-selling-price/description/"
         >1251. Average Selling Price</a
       >
     </td>
     <td>
       <a href="Study Plan\SQL 50\1251. Average Selling Price\"
         >1251. Average Selling Price</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/project-employees-i/description/"
+        >1075. Project Employees I</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1075. Project Employees I\"
+        >1075. Project Employees I</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/"
+        >1633. Percentage of Users Attended a Contest</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1633. Percentage of Users Attended a Contest\"
+        >1633. Percentage of Users Attended a Contest</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/queries-quality-and-percentage/description/"
+        >1211. Queries Quality and Percentage</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1211. Queries Quality and Percentage\"
+        >1211. Queries Quality and Percentage</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/monthly-transactions-i/description/"
+        >1193. Monthly Transactions I</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1193. Monthly Transactions I\"
+        >1193. Monthly Transactions I</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/immediate-food-delivery-ii/description/"
+        >1174. Immediate Food Delivery II</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\1174. Immediate Food Delivery II\"
+        >1174. Immediate Food Delivery II</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/problems/game-play-analysis-iv/description/"
+        >550. Game Play Analysis IV</a
+      >
+    </td>
+    <td>
+      <a href="Study Plan\SQL 50\550. Game Play Analysis IV\"
+        >550. Game Play Analysis IV</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="8">Sorting and Grouping</td>
+    <td align="center" valign="center">LeetCode的連結</td>
+    <td align="center" valign="center">練習的程式碼</td>
+  </tr>
+  <tr>
+    <td>
+      <a
+        href="https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/"
+        >2356. Number of Unique Subjects Taught by Each Teacher</a
+      >
+    </td>
+    <td>
+      <a
+        href="Study Plan\SQL 50\2356. Number of Unique Subjects Taught by Each Teacher\"
+        >2356. Number of Unique Subjects Taught by Each Teacher</a
       >
     </td>
   </tr>
