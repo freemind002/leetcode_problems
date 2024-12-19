@@ -1,31 +1,22 @@
 import polars as pl
 
-data = [
-    [1, "2015-01-01", 10],
-    [2, "2015-01-02", 25],
-    [3, "2015-01-03", 20],
-    [4, "2015-01-04", 30],
-]
-weather = (
-    pl.LazyFrame(data, schema=["id", "recordDate", "temperature"], orient="row")
-    .cast({"id": pl.Int64, "recordDate": pl.String, "temperature": pl.Int64})
-    .with_columns(pl.col("recordDate").str.to_date())
+data = [[1, 2, 3], [1, 2, 4], [1, 3, 3], [2, 1, 1], [2, 2, 1], [2, 3, 1], [2, 4, 1]]
+teacher = pl.LazyFrame(data, schema=["teacher_id", "subject_id", "dept_id"]).cast(
+    {"teacher_id": pl.Int64, "subject_id": pl.Int64, "dept_id": pl.Int64}
 )
 
 
-def rising_temperature(weather: pl.LazyFrame) -> pl.DataFrame:
+def count_unique_subjects(teacher: pl.LazyFrame) -> pl.DataFrame:
+    print(teacher.collect())
+
     result_df = (
-        weather.sort("recordDate")
-        .filter(
-            pl.col("temperature").diff() > 0,
-            pl.col("recordDate").diff().dt.total_days() == 1,
-        )
-        .select("id")
+        teacher.group_by("teacher_id")
+        .agg(cnt=pl.col("subject_id").unique().count())
         .collect()
     )
 
     return result_df
 
 
-result = rising_temperature(weather)
+result = count_unique_subjects(teacher)
 print(result)

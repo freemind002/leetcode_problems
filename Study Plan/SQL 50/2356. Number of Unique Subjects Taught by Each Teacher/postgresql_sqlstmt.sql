@@ -1,8 +1,7 @@
 SELECT
-	today.id
+	teacher_id,
+	COUNT(DISTINCT subject_id) AS cnt
 FROM
-	Weather yesterday
-	CROSS JOIN Weather today
-WHERE
-	today.recorddate - yesterday.recorddate = 1
-	AND today.temperature > yesterday.temperature;
+	Teacher
+GROUP BY
+	1;
