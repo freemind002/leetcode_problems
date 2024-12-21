@@ -8,7 +8,7 @@ data = [
 ]
 signups = (
     pl.LazyFrame(data, schema=["user_id", "time_stamp"], orient="row")
-    .cast({"user_id": pl.Int64})
+    .cast({"user_id": pl.Int64, "time_stamp": pl.String})
     .with_columns(pl.col("time_stamp").str.to_datetime())
 )
 data = [
@@ -22,7 +22,7 @@ data = [
 ]
 confirmations = (
     pl.LazyFrame(data, schema=["user_id", "time_stamp", "action"], orient="row")
-    .cast({"user_id": pl.Int64, "action": pl.String})
+    .cast({"user_id": pl.Int64, "time_stamp": pl.String, "action": pl.String})
     .with_columns(pl.col("time_stamp").str.to_datetime())
 )
 
@@ -33,13 +33,11 @@ def confirmation_rate(
     result_df = (
         signups.join(confirmations, on="user_id", how="left")
         .group_by("user_id")
-        .agg("action")
-        .select(
-            "user_id",
-            (
-                pl.col("action").list.count_matches("confirmed")
-                / pl.col("action").list.len()
-            ).alias("confirmation_rate"),
+        .agg(
+            confirmation_rate=(
+                pl.col("action").str.count_matches("confirmed").sum()
+                / pl.col("action").len()
+            ).round(2)
         )
         .collect()
     )

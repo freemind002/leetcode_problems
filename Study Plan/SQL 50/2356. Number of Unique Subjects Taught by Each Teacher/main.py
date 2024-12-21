@@ -11,7 +11,7 @@ def count_unique_subjects(teacher: pl.LazyFrame) -> pl.DataFrame:
 
     result_df = (
         teacher.group_by("teacher_id")
-        .agg(cnt=pl.col("subject_id").unique().count())
+        .agg(cnt=pl.col("subject_id").n_unique())
         .collect()
     )
 

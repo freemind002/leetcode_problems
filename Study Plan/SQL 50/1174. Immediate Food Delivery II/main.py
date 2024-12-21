@@ -24,27 +24,21 @@ delivery = pl.LazyFrame(
 
 
 def immediate_food_delivery(delivery: pl.LazyFrame) -> pl.DataFrame:
-    print(delivery.collect())
     result_df = (
         delivery.sort(["order_date", "customer_id"])
         .group_by("customer_id")
-        .agg(
-            pl.when(
-                (pl.col("order_date") == pl.col("customer_pref_delivery_date")).first()
-            )
-            .then(1)
-            .otherwise(0)
-            .alias("immediate_percentage")
+        .agg(["order_date", "customer_pref_delivery_date"])
+        .filter(
+            pl.col("order_date").list.first()
+            == pl.col("customer_pref_delivery_date").list.first()
         )
-        .with_columns(
-            (
-                pl.col("immediate_percentage").sum()
-                / pl.col("customer_id").count()
+        .select(
+            immediate_percentage=(
+                pl.col("customer_id").n_unique()
+                / delivery.collect().n_unique("customer_id")
                 * 100
             ).round(2)
         )
-        .select("immediate_percentage")
-        .head(1)
         .collect()
     )
 

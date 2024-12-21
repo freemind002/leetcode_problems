@@ -18,7 +18,7 @@ employee = pl.LazyFrame(
 def find_managers(employee: pl.LazyFrame) -> pl.DataFrame:
     result_df = (
         employee.join(
-            employee.group_by("managerId").agg(id_count=pl.col("id").len()),
+            employee.group_by("managerId").agg(id_count=pl.col("id").n_unique()),
             left_on="id",
             right_on="managerId",
         )

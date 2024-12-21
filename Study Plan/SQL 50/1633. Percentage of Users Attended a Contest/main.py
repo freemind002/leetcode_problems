@@ -29,9 +29,7 @@ def users_percentage(users: pl.LazyFrame, register: pl.LazyFrame) -> pl.DataFram
         .group_by("contest_id")
         .agg(
             percentage=(
-                pl.col("user_id").count()
-                / users.unique("user_id").collect().height
-                * 100
+                pl.col("user_id").n_unique() / users.collect().n_unique("user_id") * 100
             ).round(2)
         )
         .collect()

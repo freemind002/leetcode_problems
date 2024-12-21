@@ -28,14 +28,22 @@ def monthly_transactions(transactions: pl.LazyFrame) -> pl.DataFrame:
             .otherwise(0),
         )
         .group_by(["month", "country"])
-        .agg(["state", "amount", "approved_total_amount"])
-        .with_columns(
-            trans_count=pl.col("state").list.len(),
-            approved_count=pl.col("state").list.count_matches("approved"),
-            trans_total_amount=pl.col("amount").list.sum(),
-            approved_total_amount=pl.col("approved_total_amount").list.sum(),
+        .agg(
+            trans_count=pl.col("state").count(),
+            approved_count=pl.col("state").str.count_matches("approved").count(),
+            trans_total_amount=pl.col("amount").sum(),
+            approved_total_amount=pl.col("approved_total_amount").sum(),
         )
-        .drop("state", "amount")
+        .select(
+            [
+                "month",
+                "country",
+                "trans_count",
+                "approved_count",
+                "trans_total_amount",
+                "approved_total_amount",
+            ]
+        )
         .collect()
     )
 

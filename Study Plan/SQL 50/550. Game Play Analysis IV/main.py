@@ -21,7 +21,8 @@ activity = pl.LazyFrame(
 
 def gameplay_analysis(activity: pl.LazyFrame) -> pl.DataFrame:
     result_df = (
-        activity.group_by(["player_id"])
+        activity.sort(["event_date", "player_id"])
+        .group_by(["player_id"])
         .agg(event_date=pl.col("event_date"))
         .filter(pl.col("event_date").list.len() >= 2)
         .filter(
@@ -32,13 +33,11 @@ def gameplay_analysis(activity: pl.LazyFrame) -> pl.DataFrame:
                 == 1
             )
         )
-        .with_columns(
+        .select(
             fraction=(
-                pl.col("player_id").count()
-                / activity.unique("player_id").collect().height
+                pl.col("player_id").count() / activity.collect().n_unique("player_id")
             ).round(2)
         )
-        .select("fraction")
         .collect()
     )
 

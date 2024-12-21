@@ -34,12 +34,8 @@ def get_average_time(activity: pl.LazyFrame) -> pl.DataFrame:
         .pivot(
             index=["machine_id", "process_id"], on="activity_type", values="timestamp"
         )
-        .select(
-            pl.col("machine_id"),
-            (pl.col("end") - pl.col("start")).alias("processing_time"),
-        )
         .group_by("machine_id")
-        .agg(processing_time=pl.col("processing_time").mean().round(3))
+        .agg(processing_time=(pl.col("end") - pl.col("start")).mean().round(3))
     )
 
     return result_df

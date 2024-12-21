@@ -22,14 +22,12 @@ queries = pl.LazyFrame(
 
 def queries_stats(queries: pl.LazyFrame) -> pl.DataFrame:
     result_df = (
-        queries.with_columns(
-            quality=pl.col("rating") / pl.col("position"),
-            poor_query_percentage=pl.when(pl.col("rating") < 3).then(1).otherwise(0),
-        )
-        .group_by("query_name")
+        queries.group_by("query_name")
         .agg(
-            pl.col("quality").mean().round(2),
-            (pl.col("poor_query_percentage").mean() * 100).round(2),
+            (pl.col("rating") / pl.col("position")).mean().round(2).alias("rating"),
+            ((pl.col("rating") < 3).mean() * 100)
+            .round(2)
+            .alias("poor_query_percentage"),
         )
         .collect()
     )
