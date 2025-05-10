@@ -11,8 +11,8 @@ data = [
     ["H", "Math"],
     ["I", "Math"],
 ]
-courses = pl.LazyFrame(data, schema=["student", "class"], orient="row").cast(
-    {"student": pl.String, "class": pl.String}
+courses = pl.LazyFrame(
+    data, schema={"student": pl.String, "class": pl.String}, orient="row"
 )
 
 

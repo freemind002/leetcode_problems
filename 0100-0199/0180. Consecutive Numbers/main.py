@@ -1,9 +1,7 @@
 import polars as pl
 
 data = [[1, 1], [2, 1], [3, 1], [4, 2], [5, 1], [6, 2], [7, 2]]
-logs = pl.LazyFrame(data, schema=["id", "num"], orient="row").cast(
-    {"id": pl.Int64, "num": pl.Int64}
-)
+logs = pl.LazyFrame(data, schema={"id": pl.Int64, "num": pl.Int64}, orient="row")
 
 
 def consecutive_numbers(logs: pl.LazyFrame) -> pl.DataFrame:

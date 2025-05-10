@@ -4,12 +4,12 @@ class Solution:
 
         s_len = len(s)
         ans = sum(
-            [
+            (
                 -tmp_dic[key]
                 if (index < s_len and tmp_dic[key] < tmp_dic[s[index]])
                 else tmp_dic[key]
                 for index, key in enumerate(s, 1)
-            ]
+            )
         )
 
         return ans

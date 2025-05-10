@@ -8,14 +8,14 @@ data = [
     [3, 4, "2018-07-03", 5],
 ]
 activity = pl.LazyFrame(
-    data, schema=["player_id", "device_id", "event_date", "games_played"], orient="row"
-).cast(
-    {
+    data,
+    schema={
         "player_id": pl.Int64,
         "device_id": pl.Int64,
         "event_date": pl.Date,
         "games_played": pl.Int64,
-    }
+    },
+    orient="row",
 )
 
 

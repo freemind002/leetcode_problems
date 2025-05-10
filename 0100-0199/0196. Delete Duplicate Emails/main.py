@@ -1,9 +1,7 @@
 import polars as pl
 
 data = [[1, "john@example.com"], [2, "bob@example.com"], [3, "john@example.com"]]
-person = pl.LazyFrame(data, schema=["id", "email"], orient="row").cast(
-    {"id": pl.Int64, "email": pl.String}
-)
+person = pl.LazyFrame(data, schema={"id": pl.Int64, "email": pl.String}, orient="row")
 
 
 def delete_duplicate_emails(person: pl.LazyFrame) -> pl.DataFrame:

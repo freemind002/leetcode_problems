@@ -6,11 +6,11 @@ data = [
     [3, "2015-01-03", 20],
     [4, "2015-01-04", 30],
 ]
-weather = (
-    pl.LazyFrame(data, schema=["id", "recordDate", "temperature"], orient="row")
-    .cast({"id": pl.Int64, "recordDate": pl.String, "temperature": pl.Int64})
-    .with_columns(pl.col("recordDate").str.to_date())
-)
+weather = pl.LazyFrame(
+    data,
+    schema={"id": pl.Int64, "recordDate": pl.String, "temperature": pl.Int64},
+    orient="row",
+).with_columns(pl.col("recordDate").str.to_date())
 
 
 def rising_temperature(weather: pl.LazyFrame) -> pl.DataFrame:

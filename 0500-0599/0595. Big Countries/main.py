@@ -7,16 +7,14 @@ data = [
     ["Andorra", "Europe", 468, 78115, 3712000000],
     ["Angola", "Africa", 1246700, 20609294, 100990000000],
 ]
-schema = ["name", "continent", "area", "population", "gdp"]
-lf = pl.LazyFrame(data, schema, orient="row").cast(
-    {
-        "name": pl.String,
-        "continent": pl.String,
-        "area": pl.Int64,
-        "population": pl.Int64,
-        "gdp": pl.Int64,
-    }
-)
+schema = {
+    "name": pl.String,
+    "continent": pl.String,
+    "area": pl.Int64,
+    "population": pl.Int64,
+    "gdp": pl.Int64,
+}
+lf = pl.LazyFrame(data, schema, orient="row")
 
 
 def big_countries(world: pl.LazyFrame) -> pl.DataFrame:

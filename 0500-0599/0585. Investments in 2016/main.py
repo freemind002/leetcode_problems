@@ -7,15 +7,15 @@ data = [
     [4, 10, 40, 40, 40],
 ]
 insurance = pl.LazyFrame(
-    data, schema=["pid", "tiv_2015", "tiv_2016", "lat", "lon"], orient="row"
-).cast(
-    {
+    data,
+    schema={
         "pid": pl.Int64,
         "tiv_2015": pl.Float64,
         "tiv_2016": pl.Float64,
         "lat": pl.Float64,
         "lon": pl.Float64,
-    }
+    },
+    orient="row",
 )
 
 

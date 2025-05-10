@@ -1,12 +1,10 @@
 import polars as pl
 
 data = [[1, "Joe"], [2, "Henry"], [3, "Sam"], [4, "Max"]]
-customers = pl.LazyFrame(data, schema=["id", "name"], orient="row").cast(
-    {"id": pl.Int64, "name": pl.String}
-)
+customers = pl.LazyFrame(data, schema={"id": pl.Int64, "name": pl.String}, orient="row")
 data = [[1, 3], [2, 1]]
-orders = pl.LazyFrame(data, schema=["id", "customerId"], orient="row").cast(
-    {"id": pl.Int64, "customerId": pl.Int64}
+orders = pl.LazyFrame(
+    data, schema={"id": pl.Int64, "customerId": pl.Int64}, orient="row"
 )
 
 

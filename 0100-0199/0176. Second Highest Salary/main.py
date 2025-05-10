@@ -2,9 +2,7 @@ import polars as pl
 
 data = [[1, 100], [2, 200], [3, 300]]
 # data = [[1, 100]]
-employee = pl.LazyFrame(data, schema=["id", "salary"], orient="row").cast(
-    {"id": pl.Int64, "salary": pl.Int64}
-)
+employee = pl.LazyFrame(data, schema={"id": pl.Int64, "salary": pl.Int64}, orient="row")
 
 
 def second_highest_salary(employee: pl.LazyFrame) -> pl.DataFrame:

@@ -10,13 +10,18 @@ data = [
     [7, "Will", 70000, 1],
 ]
 employee = pl.LazyFrame(
-    data, schema=["id", "name", "salary", "departmentId"], orient="row"
-).cast(
-    {"id": pl.Int64, "name": pl.String, "salary": pl.Int64, "departmentId": pl.Int64}
+    data,
+    schema={
+        "id": pl.Int64,
+        "name": pl.String,
+        "salary": pl.Int64,
+        "departmentId": pl.Int64,
+    },
+    orient="row",
 )
 data = [[1, "IT"], [2, "Sales"]]
-department = pl.LazyFrame(data, schema=["id", "name"], orient="row").cast(
-    {"id": pl.Int64, "name": pl.String}
+department = pl.LazyFrame(
+    data, schema={"id": pl.Int64, "name": pl.String}, orient="row"
 )
 
 

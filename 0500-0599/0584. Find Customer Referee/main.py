@@ -8,10 +8,8 @@ data = [
     [5, "Zack", 1],
     [6, "Mark", 2],
 ]
-schema = ["id", "name", "referee_id"]
-lf = pl.LazyFrame(data, schema, orient="row").cast(
-    {"id": pl.Int64, "name": pl.String, "referee_id": pl.Int64}
-)
+schema = {"id": pl.Int64, "name": pl.String, "referee_id": pl.Int64}
+lf = pl.LazyFrame(data, schema, orient="row")
 
 
 def find_customer_referee(customer: pl.LazyFrame) -> pl.DataFrame:

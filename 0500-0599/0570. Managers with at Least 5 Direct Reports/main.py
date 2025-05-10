@@ -9,9 +9,14 @@ data = [
     [106, "Ron", "B", 101],
 ]
 employee = pl.LazyFrame(
-    data, schema=["id", "name", "department", "managerId"], orient="row"
-).cast(
-    {"id": pl.Int64, "name": pl.String, "department": pl.String, "managerId": pl.Int64}
+    data,
+    schema={
+        "id": pl.Int64,
+        "name": pl.String,
+        "department": pl.String,
+        "managerId": pl.Int64,
+    },
+    orient="row",
 )
 
 
