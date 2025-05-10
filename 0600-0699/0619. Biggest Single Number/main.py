@@ -2,7 +2,7 @@ import polars as pl
 
 data = [[8], [8], [3], [3], [1], [4], [5], [6]]
 # data = [[8], [8], [7], [7], [3], [3], [3]]
-my_numbers = pl.LazyFrame(data, schema=["num"], orient="row").cast({"num": pl.Int64})
+my_numbers = pl.LazyFrame(data, schema={"num": pl.Int64}, orient="row")
 
 
 def biggest_single_number(my_numbers: pl.LazyFrame) -> pl.DataFrame:

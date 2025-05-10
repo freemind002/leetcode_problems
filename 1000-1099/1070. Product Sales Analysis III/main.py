@@ -2,19 +2,19 @@ import polars as pl
 
 data = [[1, 100, 2008, 10, 5000], [2, 100, 2009, 12, 5000], [7, 200, 2011, 15, 9000]]
 sales = pl.LazyFrame(
-    data, schema=["sale_id", "product_id", "year", "quantity", "price"], orient="row"
-).cast(
-    {
+    data,
+    schema={
         "sale_id": pl.Int64,
         "product_id": pl.Int64,
         "year": pl.Int64,
         "quantity": pl.Int64,
         "price": pl.Int64,
-    }
+    },
+    orient="row",
 )
 data = [[100, "Nokia"], [200, "Apple"], [300, "Samsung"]]
-product = pl.LazyFrame(data, schema=["product_id", "product_name"], orient="row").cast(
-    {"product_id": pl.Int64, "product_name": pl.String}
+product = pl.LazyFrame(
+    data, schema={"product_id": pl.Int64, "product_name": pl.String}, orient="row"
 )
 
 

@@ -1,9 +1,7 @@
 import polars as pl
 
 data = [[1, "Abbot"], [2, "Doris"], [3, "Emerson"], [4, "Green"], [5, "Jeames"]]
-seat = pl.LazyFrame(data, schema=["id", "student"], orient="row").cast(
-    {"id": pl.Int64, "student": pl.String}
-)
+seat = pl.LazyFrame(data, schema={"id": pl.Int64, "student": pl.String}, orient="row")
 
 
 def exchange_seats(seat: pl.LazyFrame) -> pl.DataFrame:
@@ -15,11 +13,9 @@ def exchange_seats(seat: pl.LazyFrame) -> pl.DataFrame:
             tmp_list[0][1], tmp_list[1][1] = tmp_list[1][1], tmp_list[0][1]
         data += tmp_list
 
-    result_df = (
-        pl.LazyFrame(data, schema=["id", "student"], orient="row")
-        .cast({"id": pl.Int64, "student": pl.String})
-        .collect()
-    )
+    result_df = pl.LazyFrame(
+        data, schema={"id": pl.Int64, "student": pl.String}, orient="row"
+    ).collect()
 
     return result_df
 

@@ -1,8 +1,8 @@
 import polars as pl
 
 data = [[13, 15, 30], [10, 20, 15]]
-triangle = pl.LazyFrame(data, schema=["x", "y", "z"], orient="row").cast(
-    {"x": pl.Int64, "y": pl.Int64, "z": pl.Int64}
+triangle = pl.LazyFrame(
+    data, schema={"x": pl.Int64, "y": pl.Int64, "z": pl.Int64}, orient="row"
 )
 
 

@@ -8,9 +8,14 @@ data = [
     [5, "House card", "Interesting", 9.1],
 ]
 cinema = pl.LazyFrame(
-    data, schema=["id", "movie", "description", "rating"], orient="row"
-).cast(
-    {"id": pl.Int64, "movie": pl.String, "description": pl.String, "rating": pl.Float64}
+    data,
+    schema={
+        "id": pl.Int64,
+        "movie": pl.String,
+        "description": pl.String,
+        "rating": pl.Float64,
+    },
+    orient="row",
 )
 
 

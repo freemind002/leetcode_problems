@@ -7,8 +7,10 @@ data = [
     [3, 4, "2016/06/09"],
 ]
 request_accepted = pl.LazyFrame(
-    data, schema=["requester_id", "accepter_id", "accept_date"], orient="row"
-).cast({"requester_id": pl.Int64, "accepter_id": pl.Int64, "accept_date": pl.Date})
+    data,
+    schema={"requester_id": pl.Int64, "accepter_id": pl.Int64, "accept_date": pl.Date},
+    orient="row",
+)
 
 
 def most_friends(request_accepted: pl.LazyFrame) -> pl.DataFrame:
