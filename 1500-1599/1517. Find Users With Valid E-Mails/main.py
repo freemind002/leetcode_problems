@@ -9,8 +9,10 @@ data = [
     [6, "David", "david69@gmail.com"],
     [7, "Shapiro", ".shapo@leetcode.com"],
 ]
-users = pl.LazyFrame(data, schema=["user_id", "name", "mail"], orient="row").cast(
-    {"user_id": pl.Int64, "name": pl.String, "mail": pl.String}
+users = pl.LazyFrame(
+    data,
+    schema={"user_id": pl.Int64, "name": pl.String, "mail": pl.String},
+    orient="row",
 )
 
 

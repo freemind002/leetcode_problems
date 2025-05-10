@@ -8,8 +8,10 @@ data = [
     [5, "Alain", "DIAB201"],
 ]
 patients = pl.LazyFrame(
-    data, schema=["patient_id", "patient_name", "conditions"], orient="row"
-).cast({"patient_id": pl.Int64, "patient_name": pl.String, "conditions": pl.String})
+    data,
+    schema={"patient_id": pl.Int64, "patient_name": pl.String, "conditions": pl.String},
+    orient="row",
+)
 
 
 def find_patients(patients: pl.LazyFrame) -> pl.DataFrame:
